@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Life Agenda</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_hint">Title</string>
+    <string name="date_hint_dmy">DD/MM/YYYY</string>
+    <string name="priority_hint">Priority</string>
+    <string name="description_hint">Description</string>
+    <string name="save_hint">SAVE</string>
+    <string name="discard">DISCARD</string>
+    <string name="creation_date">Creation Date</string>
+    <string name="due_date">Due Date</string>
+    <string name="priority">Priority</string>
+</resources>
