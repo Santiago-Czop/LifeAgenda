@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -10,112 +11,133 @@
         android:layout_height="?attr/actionBarSize"
         android:background="?attr/colorPrimary"
         android:elevation="4dp"
-        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:theme="@style/ToolBarTheme"
         />
 
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:paddingBottom="16dp"
-        android:paddingTop="16dp">
+        android:layout_height="match_parent">
 
-        <TextView
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingRight="16dp"
-            android:paddingLeft="16dp"
-            android:layout_marginBottom="7dp"
-            android:textSize="14sp"
-            android:textColor="@color/transparent87"
-            />
+            android:orientation="vertical"
+            android:paddingBottom="16dp">
 
-        <View
-            android:layout_width="fill_parent"
-            android:layout_height="1dip"
-            android:background="@color/transparent12"
-            />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="20dp"
+                android:paddingBottom="2dp"
+                android:text="@string/due_date"
+                android:textSize="16sp"
+                android:textColor="@color/transparent87"
+                />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingLeft="16dp"
-            android:paddingRight="16dp"
-            android:paddingTop="20dp"
-            android:paddingBottom="2dp"
-            android:text="@string/due_date"
-            android:textSize="16sp"
-            android:textColor="@color/transparent87"
-            />
+            <TextView
+                android:id="@+id/TVDueDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="16dp"
+                android:paddingLeft="16dp"
+                android:paddingBottom="19dp"
+                android:textSize="14sp"
+                android:textColor="@color/transparent87"
+                />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingRight="16dp"
-            android:paddingLeft="16dp"
-            android:paddingBottom="19dp"
-            android:textSize="14sp"
-            android:textColor="@color/transparent87"
-            />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@color/transparent12"
+                />
 
-        <View
-            android:layout_width="fill_parent"
-            android:layout_height="1dip"
-            android:background="@color/transparent12"
-            />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="16dp"
+                android:paddingLeft="16dp"
+                android:paddingBottom="2dp"
+                android:paddingTop="20dp"
+                android:text="@string/creation_date"
+                android:textSize="16sp"
+                android:textColor="@color/transparent87"
+                />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingRight="16dp"
-            android:paddingLeft="16dp"
-            android:paddingBottom="2dp"
-            android:paddingTop="20dp"
-            android:text="@string/creation_date"
-            android:textSize="16sp"
-            android:textColor="@color/transparent87"
-            />
+            <TextView
+                android:id="@+id/TVCreationDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="16dp"
+                android:paddingLeft="16dp"
+                android:paddingBottom="19dp"
+                android:textSize="14sp"
+                android:textColor="@color/transparent87"
+                />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingRight="16dp"
-            android:paddingLeft="16dp"
-            android:paddingBottom="19dp"
-            android:textSize="14sp"
-            android:textColor="@color/transparent87"
-            />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@color/transparent12"
+                />
 
-        <View
-            android:layout_width="fill_parent"
-            android:layout_height="1dip"
-            android:background="@color/transparent12"
-            />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="16dp"
+                android:paddingLeft="16dp"
+                android:paddingBottom="2dp"
+                android:paddingTop="20dp"
+                android:text="@string/priority"
+                android:textSize="16sp"
+                android:textColor="@color/transparent87"
+                />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingRight="16dp"
-            android:paddingLeft="16dp"
-            android:paddingBottom="2dp"
-            android:paddingTop="20dp"
-            android:text="@string/priority"
-            android:textSize="16sp"
-            android:textColor="@color/transparent87"
-            />
+            <TextView
+                android:id="@+id/TVPriority"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="16dp"
+                android:paddingLeft="16dp"
+                android:paddingBottom="19dp"
+                android:textSize="14sp"
+                android:textColor="@color/transparent87"
+                />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingRight="16dp"
-            android:paddingLeft="16dp"
-            android:paddingBottom="19dp"
-            android:textSize="14sp"
-            android:textColor="@color/transparent87"
-            />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@color/transparent12"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="16dp"
+                android:paddingLeft="16dp"
+                android:paddingBottom="2dp"
+                android:paddingTop="20dp"
+                android:text="@string/description"
+                android:textSize="16sp"
+                android:textColor="@color/transparent87"
+                />
+
+            <TextView
+                android:id="@+id/TVDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="16dp"
+                android:paddingLeft="16dp"
+                android:paddingBottom="20dp"
+                android:textSize="14sp"
+                android:textColor="@color/transparent87"
+                />
 
 
 
-    </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
 
 </LinearLayout>

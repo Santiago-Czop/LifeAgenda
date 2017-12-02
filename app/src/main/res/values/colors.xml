@@ -1,11 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="transparent">#00FFFFFF</color>
     <color name="transparent12">#1A000000</color>
+    <color name="transparent26">#40000000</color>
     <color name="transparent38">#66000000</color>
+    <color name="transparent40">#66999999</color>
     <color name="transparent54">#8C000000</color>
     <color name="transparent87">#D9000000</color>
     <color name="transparent100">#FF999999</color>
+    <color name="transparent54red">#8CD32F2F</color>
+    <color name="colorPrimary">#4CAF50</color>
+    <color name="colorPrimaryDark">#388E3C</color>
+    <color name="colorAccent">#81C784</color>
+    <color name="colorPrimaryText">#D9000000</color>
+    <color name="colorSecondaryText">#8C000000</color>
+    <color name="colorDivider">#BDBDBD</color>
+    <color name="white">#FFFFFF</color>
+    <color name="light_gray">#E9EBEB</color>
+
 </resources>
+

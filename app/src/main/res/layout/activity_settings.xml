@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        app:theme="@style/ToolBarTheme"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"
+                android:text="@string/notifications_caps"
+                android:drawableRight="@drawable/notifications_green_24dp"
+                android:drawableEnd="@drawable/notifications_green_24dp"
+                android:drawablePadding="16dp"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/transparent87"/>
+
+            <android.support.v7.widget.SwitchCompat
+                android:id="@+id/switch_ntf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"
+                android:text="@string/notifications_switch"
+                android:textSize="16sp"
+                android:textColor="@color/transparent87"
+                android:checked="true"/>
+
+            <android.support.v7.widget.SwitchCompat
+                android:id="@+id/switch_vbr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"
+                android:text="@string/vibration"
+                android:textSize="16sp"
+                android:textColor="@color/transparent87"
+                android:checked="false"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="16dp"
+                    android:paddingLeft="16dp"
+                    android:paddingBottom="16dp"
+                    android:text="@string/minimum_priority"
+                    android:textSize="16sp"
+                    android:textColor="@color/transparent87"
+                    />
+
+                <TextView
+                    android:id="@+id/progressText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="end"
+                    android:textSize="16sp"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="16dp"
+                    android:paddingRight="16dp"
+                    android:text="6"
+                    android:textColor="@color/transparent87"/>
+
+            </LinearLayout>
+
+            <SeekBar
+                android:id="@+id/seekBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="7dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_gravity="center_horizontal"
+                android:progress="5"
+                android:max="9"
+                />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@color/transparent12"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"
+                android:layout_marginTop="8dp"
+                android:drawableRight="@drawable/help_green_24dp"
+                android:drawableEnd="@drawable/help_green_24dp"
+                android:drawablePadding="16dp"
+                android:text="@string/help_caps"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/transparent87"/>
+
+            <TextView
+                android:id="@+id/btn_faq"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingBottom="16dp"
+                android:text="@string/faq"
+                android:textSize="16sp"
+                android:textColor="@color/transparent87"
+                />
+
+            <TextView
+                android:id="@+id/btn_contact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingBottom="16dp"
+                android:text="@string/contact_us"
+                android:textSize="16sp"
+                android:textColor="@color/transparent87"
+                />
+
+            <TextView
+                android:id="@+id/btn_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingBottom="16dp"
+                android:text="@string/information"
+                android:textSize="16sp"
+                android:textColor="@color/transparent87"
+                />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

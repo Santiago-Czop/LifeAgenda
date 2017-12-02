@@ -1,1 +1,11 @@
-<resources></resources>
+<resources>
+
+        <style name="AppTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+                <item name="windowActionModeOverlay">true</item>
+                <item name="colorPrimary">@color/colorPrimary</item>
+                <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+                <item name="colorAccent">@color/colorAccent</item>
+                <item name="actionModeStyle">@style/ActionModeStyle</item>
+                <item name="actionBarTheme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        </style>
+</resources>

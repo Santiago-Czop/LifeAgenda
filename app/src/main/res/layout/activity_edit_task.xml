@@ -147,7 +147,6 @@
                         android:paddingTop="16dp"
                         android:paddingBottom="16dp"
                         android:layout_marginBottom="4dp"
-                        android:text="2017"
                         android:textSize="16sp"
                         android:hint="@string/yyyy"
                         android:singleLine="true"
@@ -155,6 +154,8 @@
                         android:inputType="number"/>
 
                 </android.support.design.widget.TextInputLayout>
+
+
 
             </LinearLayout>
 

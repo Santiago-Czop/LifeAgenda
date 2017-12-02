@@ -1,13 +1,66 @@
 <resources>
     <string name="app_name">Life Agenda</string>
-    <string name="title_activity_main2">Main2Activity</string>
-    <string name="title_hint">Title</string>
-    <string name="date_hint_dmy">DD/MM/YYYY</string>
-    <string name="priority_hint">Priority</string>
-    <string name="description_hint">Description</string>
-    <string name="save_hint">SAVE</string>
+    <string name="title">Title</string>
+    <string name="description_hint">Description (Optional)</string>
+    <string name="save">SAVE</string>
+    <string name="description">Description</string>
     <string name="discard">DISCARD</string>
-    <string name="creation_date">Creation Date</string>
-    <string name="due_date">Due Date</string>
+    <string name="creation_date">Creation date</string>
+    <string name="due_date">Due date</string>
+    <string name="delete_caps">DELETE</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="sort_by">Sort by</string>
+    <string name="more">More</string>
+    <string name="settings">Settings</string>
     <string name="priority">Priority</string>
+    <string name="information">Apps Information</string>
+    <string name="contact_us">Contact us</string>
+    <string name="faq">FAQ</string>
+    <string name="new_task">New Task</string>
+    <string name="edit_task">Edit Task</string>
+    <string name="slash">/</string>
+    <string name="dd">DD</string>
+    <string name="mm">MM</string>
+    <string name="yyyy">YYYY</string>
+    <string name="empty_list_text">Add a task by pressing the plus button</string>
+    <string name="overdue_tasks">Overdue Tasks</string>
+    <string name="notifications_switch">Enable Notifications</string>
+    <string name="minimum_priority">Minimum priority</string>
+    <string name="vibration">Vibration</string>
+    <string name="notifications_caps">NOTIFICATIONS</string>
+    <string name="help_caps">HELP</string>
+    <string name="swap">Invert Order</string>
+    <string name="FAQ">Frequent Asked Questions</string>
+    <string name="your_e_mail">Your E-Mail</string>
+    <string name="confirm_your_e_mail">Confirm your E-Mail</string>
+    <string name="did_read">Have you read the frequent asked questions? If you haven\'t, take a look at them here.</string>
+    <string name="body_hint">Tell us about your problem</string>
+    <string name="subject_hint">Subject</string>
+    <string name="subject_default">Comments/Problems about Life Agenda</string>
+    <string name="send_e_mail">CONTINUE</string>
+    <string name="conclude">Conclude</string>
+    <string name="app_s_logo">App\'s Logo</string>
+    <string name="all_rights_reserved">All rights reserved</string>
+    <string name="information_title">Life Agenda\'s Information</string>
+    <string name="cancel_caps">CANCEL</string>
+
+    <string-array name="FAQQuestions">
+        <item>What is Life Agenda?</item>
+        <item>Updating the Life Agenda</item>
+        <item>Reinstalling Life Agenda</item>
+        <item>Compatible devices</item>
+        <item>What is "priority"?</item>
+        <item>Where do overdue tasks go?</item>
+        <item>Where can I report an error?</item>
+    </string-array>
+    <string-array name="FAQAnswers">
+        <item>Life Agenda is a simplified calendar application aimed to help you organize your life.</item>
+        <item>Google PlayStore automatically updates your applications by default, but if this is not your case, you can always check manually if there is any newer version. Any preferences or tasks will be saved upon update.</item>
+        <item>If you were to reinstall Life Agenda for whatever reason, bear in mind that your current tasks will be deleted.</item>
+        <item>This application is compatible only with devices with Android 4.1 Jelly Bean or higher.</item>
+        <item>Priority is a personalized number aimed to reflect the importance you give to each task, in order to help you on your organization.</item>
+        <item>Every day you will get notified if there are any overdue tasks. They will be automatically deleted after the fifth day in this condition.</item>
+        <item>Life Agenda\'s developers are open to hear about any errors or suggestions. You can send an E-mail to czop.developer@gmail.com</item>
+    </string-array>
 </resources>
