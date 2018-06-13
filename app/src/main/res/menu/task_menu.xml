@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/edit"
+        android:title="@string/edit"
+        android:icon="@drawable/edit_white_24dp"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/conclude"
+        android:title="@string/conclude"
+        android:icon="@drawable/tic_white_24dp"
+        app:showAsAction="ifRoom"
+        />
+
+</menu>

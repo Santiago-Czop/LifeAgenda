@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/swap"
+        android:title="@string/swap"
+        android:icon="@drawable/swap_white_24dp"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/sort_by"
+        android:title="@string/sort_by"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/settings"
+        android:title="@string/settings"
+        app:showAsAction="never"
+        />
+
+</menu>

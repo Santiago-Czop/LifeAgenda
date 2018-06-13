@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Life Agenda</string>
+    <string name="title">Título</string>
+    <string name="description_hint">Descripción (Opcional)</string>
+    <string name="save">GUARDAR</string>
+    <string name="description">Descripción</string>
+    <string name="discard">DESECHAR</string>
+    <string name="creation_date">Fecha de creación</string>
+    <string name="due_date">Fecha de vencimiento</string>
+    <string name="delete_caps">BORRAR</string>
+    <string name="delete">Borrar</string>
+    <string name="edit">Editar</string>
+    <string name="sort_by">Ordenar por</string>
+    <string name="more">Más</string>
+    <string name="settings">Configuración</string>
+    <string name="priority">Prioridad</string>
+    <string name="information">Información de la App</string>
+    <string name="contact_us">Contáctanos</string>
+    <string name="faq">Preguntas Frecuentes</string>
+    <string name="new_task">Nueva Tarea</string>
+    <string name="edit_task">Editar Tarea</string>
+    <string name="slash">/</string>
+    <string name="dd">DD</string>
+    <string name="mm">MM</string>
+    <string name="yyyy">AAAA</string>
+    <string name="empty_list_text">Añade una tarea tocando el botón del más</string>
+    <string name="overdue_tasks">Tareas Vencidas</string>
+    <string name="notifications_switch">Habilitar Notificaciones</string>
+    <string name="minimum_priority">Prioridad Mínima</string>
+    <string name="vibration">Vibración</string>
+    <string name="notifications_caps">NOTIFICACIONES</string>
+    <string name="help_caps">AYUDA</string>
+    <string name="swap">Invertir Orden</string>
+    <string name="FAQ">Preguntas Frecuentes</string>
+    <string name="your_e_mail">Tu E-Mail</string>
+    <string name="confirm_your_e_mail">Confirmá tu E-Mail</string>
+    <string name="did_read">Ya leíste las preguntas frecuentes? Si no, podés hacerlo acá.</string>
+    <string name="body_hint">Contanos sobre tu problema</string>
+    <string name="subject_hint">Asunto</string>
+    <string name="subject_default">Comentarios/Problemas acerca de Life Agenda</string>
+    <string name="send_e_mail">CONTINUAR</string>
+    <string name="conclude">Concluir</string>
+    <string name="app_s_logo">Logo de la App</string>
+    <string name="all_rights_reserved">Todos los derechos reservados</string>
+    <string name="information_title">Información de Life Agenda</string>
+    <string name="cancel_caps">CANCELAR</string>
+
+    <string-array name="FAQQuestions">
+        <item>¿Qué es Life Agenda?</item>
+        <item>Actualizar Life Agenda</item>
+        <item>Reinstalar Life Agenda</item>
+        <item>Dispositivos compatibles</item>
+        <item>¿Qué es "prioridad"?</item>
+        <item>¿A dónde van las tareas vencidas?</item>
+        <item>¿Cómo puedo reportar un error?</item>
+    </string-array>
+    <string-array name="FAQAnswers">
+        <item>Life Agenda es una aplicación de recordatorios simplificada que apunta a ayudarte a organizar tu vida.</item>
+        <item>Google PlayStore actualiza automáticamente tus aplicaciones por defecto, pero si este no es tu caso, siempre podés revisar manualmente si hay alguna versión nueva. Todas tus preferencias y tareas serán conservadas luego de la actualización.</item>
+        <item>Si fueses a reinstalar Life Agenda por algún motivo, tené en cuenta que tus tareas serán eliminadas.</item>
+        <item>Esta aplicación es compatible únicamente con los dispositivos que tengan Android 4.1 Jelly Bean o superior.</item>
+        <item>La prioridad es un número personalizado que apunta a reflejar la importancia que le das a cada tarea, para así lograr asistirte en tu organización.</item>
+        <item>Cada día serás notificado si hay alguna tarea vencida. Serán eliminadas automáticamente en el quinto día en esta condición.</item>
+        <item>Los desarrolladores de Life Agenda están abiertos a escuchar sobre cualquier error o sugerencias. Podés enviar un e-mail a czop.developer@gmail.com</item>
+    </string-array>
+</resources>
